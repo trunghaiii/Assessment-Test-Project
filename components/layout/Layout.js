@@ -18,6 +18,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleMobileMenu = () => setMobileMenu(!isMobileMenu)
 
     useEffect(() => {
+
         const WOW = require('wowjs')
         window.wow = new WOW.WOW({
             live: false

@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick.css"
 import "/public/css/slick-theme.css"
 import "/public/css/slick.css"
 import "/public/css/animate.css"
-import "/public/css/spinner.css"
+import "/public/css/cup-animation.css"
 import "/public/css/demo.css"
 import "/public/css/style.css"
 import "/public/css/responsive.css"
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-        }, 1000)
+        }, 2000)
 
     }, [])
     return (<>
