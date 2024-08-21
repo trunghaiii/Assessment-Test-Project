@@ -52,7 +52,6 @@ export default function DataTable() {
 
     };
 
-
     useEffect(() => {
         pullData()
     }, []);
